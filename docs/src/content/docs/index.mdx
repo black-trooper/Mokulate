@@ -1,0 +1,42 @@
+---
+title: Mokulate
+template: splash
+hero:
+  title: |
+    Mokulate
+  tagline: 天然木で仕立てた、無線分割キーボード
+---
+
+import { Card, CardGrid, LinkButton } from "@astrojs/starlight/components";
+
+&nbsp;
+
+<LinkButton href="/build-guide/" icon="document" iconPlacement="start">ビルドガイド</LinkButton>
+<LinkButton href="https://github.com/black-trooper/zmk-config-Mokulate" icon="github" iconPlacement="start">ファームウェア</LinkButton>
+<LinkButton href="https://kinoya.booth.pm/" icon="external" iconPlacement="start" variant="secondary">Boothで購入</LinkButton>
+
+&nbsp;
+
+<CardGrid>
+  <Card title="🪵 木製削り出しケース">
+    高級感のある無垢材を贅沢に削り出した木製のトップケースに、3DP製のボトムケースを組み合わせています。
+  </Card>
+  <Card title="🔋 電池駆動の無線分割キーボード">
+    左右それぞれ単４電池１本ずつで動作します。
+    アルカリ電池と充電電池の両方に対応しています。
+  </Card>
+  <Card title="🏕️ デフォルトテンティング">
+    手首が自然な角度でタイピングできるよう、デフォルトで4度テンティングされています。
+  </Card>
+  <Card title="⌨️ オーソリニア配列">
+    広く普及しているロウスタッガード配列からの移行もしやすく、見た目もすっきりしたオーソリニア配列を採用。
+  </Card>
+  <Card title="☁️ tadpoleマウント">
+    タイピング時にほんの少しだけキーが沈みます。これがあるから疲れにくいとかはわからないですが、なんだか気持ちいいんです。（疲れたら休憩しましょう）
+  </Card>
+  <Card title="🥷 電池もマイコンも露出させない">
+    キーマップが固まってしまえばUSBケーブルを刺すこともなくなるので、USBポートも電池ケースの中に隠しました。
+  </Card>
+</CardGrid>
+
+<img src="/keyspec-badge.png" alt="KeySpec対応バッジ" class="keyspec-badge" />

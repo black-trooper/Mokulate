@@ -1,0 +1,103 @@
+/* ライトテーマ（背景白、アクセント黒） */
+:root {
+  --sl-color-accent: #000000;
+  /* アクセントを黒に */
+  --sl-color-accent-high: #1a1a1a;
+  --sl-color-accent-low: #4d4d4d;
+
+  /* 必要に応じて背景・テキストも黒系に */
+  --sl-color-text: #111111;
+  --sl-color-bg: #ffffff;
+}
+
+/* ダークテーマ（背景黒、アクセントも黒寄り） */
+:root[data-theme='dark'] {
+  --sl-color-accent: #ffffff;
+  /* 黒背景では白の方が視認性が良いので白アクセント推奨 */
+  --sl-color-accent-high: #e5e5e5;
+  --sl-color-accent-low: #8c8c8c;
+
+  --sl-color-text: #f5f5f5;
+  --sl-color-bg: #000000;
+}
+
+/* --- sl-link-button (primary) を黒テーマに --- */
+.sl-link-button.primary,
+.sl-link-button.is-primary {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: #ffffff !important;
+  /* 白文字 */
+}
+
+/* not-content 用の variant も黒に */
+.sl-link-button.not-content.primary,
+.sl-link-button.not-content.is-primary {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* ホバー時 */
+.sl-link-button.primary:hover,
+.sl-link-button.not-content.primary:hover {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+}
+
+/* Primary buttons (dark) */
+:root[data-theme="dark"] .sl-link-button.primary,
+:root[data-theme="dark"] .sl-link-button.not-content.primary {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+:root[data-theme="dark"] .sl-link-button.primary:hover,
+:root[data-theme="dark"] .sl-link-button.not-content.primary:hover {
+  background-color: #e5e5e5 !important;
+  border-color: #e5e5e5 !important;
+}
+
+.hero {
+  position: relative;
+  height: 60vh;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background: url("/hero.jpg") center/cover no-repeat;
+  color: #f5f5f5 !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #f5f5f5;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.hero .tagline {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.hero .copy {
+  align-items: baseline;
+}
+
+.keyspec-badge {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+th,
+td {
+  padding: 0.5rem 1rem !important;
+}
