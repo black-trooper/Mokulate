@@ -1,6 +1,6 @@
 # Mokulate
 
-![alt text](docs/public/hero.jpg)
+![Mokulate](docs/public/hero.jpg)
 
 特徴:
 - 🪵 木製削り出しケース
@@ -10,19 +10,16 @@
 - ☁️ tadpoleマウント
 - 🥷 電池もマイコンも露出させない 
 
+![KeySpec対応バッジ](docs/public/keyspec-badge.png)
 
-## Whare to Buy
+## Documents
+
+https://black-trooper.github.io/Mokulate/
+
+## Where to Buy
 
 https://kinoya.booth.pm/ （販売予定）
-
-## Build Guide
-
-https://black-trooper.github.io/Mokulate/build-guide/
 
 ## Firmware
 
 https://github.com/black-trooper/zmk-config-Mokulate
-
-## Keymap
-
-https://black-trooper.github.io/Mokulate/build-guide/keymap/
