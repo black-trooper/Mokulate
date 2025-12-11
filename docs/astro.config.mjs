@@ -15,7 +15,7 @@ export default defineConfig({
 			],
 			title: 'Mokulate',
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/black-trooper/zmk-config-Mokulate' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/black-trooper/Mokulate' },
 				{ icon: 'x.com', label: 'X', href: 'https://x.com/black_trooper' },
 			],
 			sidebar: [
