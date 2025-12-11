@@ -13,7 +13,7 @@
 
 ## Whare to Buy
 
-https://kinoya.booth.pm/
+https://kinoya.booth.pm/ （販売予定）
 
 ## Build Guide
 
