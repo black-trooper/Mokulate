@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
 	site: "https://black-trooper.github.io",
-	base: "Mokulate",
+	base: "/Mokulate/",
 	integrations: [
 		starlight({
 			plugins: [
