@@ -25,6 +25,22 @@ export default defineConfig({
 				},
 			],
 			customCss: ['./src/styles/global.css'],
+			head: [
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image',
+						content: 'https://black-trooper.github.io/Mokulate/og-image.jpg',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'twitter:image',
+						content: 'https://black-trooper.github.io/Mokulate/og-image.jpg',
+					},
+				},
+			],
 		}),
 	],
 	vite: {
