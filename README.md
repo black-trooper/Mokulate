@@ -19,7 +19,7 @@ https://black-trooper.github.io/Mokulate/
 
 ## Where to Buy
 
-https://kinoya.booth.pm/ （販売予定）
+https://kinoya.booth.pm/items/7752191 （販売予定）
 
 ## Firmware
 
