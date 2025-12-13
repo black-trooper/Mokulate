@@ -19,8 +19,8 @@ PCにファームウェアをダウンロードして、USBケーブルで接続
 
 1. [Mokulate の GitHub リリースページ](https://github.com/black-trooper/zmk-config-Mokulate/releases) へアクセスする。
 2. “Assets” から次の 2 ファイルをダウンロードする：
-   - **`Mokulate_left.uf2`**（左側用）
-   - **`Mokulate_right.uf2`**（右側用）
+   - **`Mokulate_left-xiao_ble-zmk.uf2`**（左側用）
+   - **`Mokulate_right-xiao_ble-zmk.uf2`**（右側用）
 
 ---
 
@@ -42,8 +42,8 @@ PCにファームウェアをダウンロードして、USBケーブルで接続
 
 1. 表示された仮想ドライブを開く。
 2. ドライブ直下へ、対応する側の `.uf2` ファイルをコピーする。
-   - 左側の場合 → `Mokulate_left.uf2`
-   - 右側の場合 → `Mokulate_right.uf2`
+   - 左側の場合 → `Mokulate_left-xiao_ble-zmk.uf2`
+   - 右側の場合 → `Mokulate_right-xiao_ble-zmk.uf2`
 3. コピー完了後、ドライブが自動でアンマウントされ、キーボードが再起動する。
 
 これで書き込みは完了です。
