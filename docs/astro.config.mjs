@@ -36,6 +36,20 @@ export default defineConfig({
 				{
 					tag: 'meta',
 					attrs: {
+						name: 'twitter:title',
+						content: 'Mokulate',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'twitter:description',
+						content: 'Mokulateは木製削り出しケースの美しさと、快適なタイピングを追求した無線分割キーボードです。',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
 						name: 'twitter:image',
 						content: 'https://black-trooper.github.io/Mokulate/og-image.jpg',
 					},
