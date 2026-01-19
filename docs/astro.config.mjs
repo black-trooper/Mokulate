@@ -23,6 +23,10 @@ export default defineConfig({
 					label: 'ビルドガイド',
 					autogenerate: { directory: 'build-guide' },
 				},
+				{
+					label: 'Mokulateを知る',
+					autogenerate: { directory: 'story' },
+				},
 			],
 			customCss: ['./src/styles/global.css'],
 			head: [
