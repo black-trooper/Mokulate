@@ -19,8 +19,8 @@ PCにファームウェアをダウンロードして、USBケーブルで接続
 
 1. [Mokulate の GitHub リリースページ](https://github.com/black-trooper/zmk-config-Mokulate/releases) へアクセスする。
 2. “Assets” から次の 2 ファイルをダウンロードする：
-   - **`Mokulate_left-xiao_ble-zmk.uf2`**（左側用）
-   - **`Mokulate_right-xiao_ble-zmk.uf2`**（右側用）
+   - **`Mokulate_v1.x_left-xiao_ble.uf2`**（左側用）
+   - **`Mokulate_v1.x_right-xiao_ble.uf2`**（右側用）
 
 ---
 
