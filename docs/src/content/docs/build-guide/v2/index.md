@@ -48,7 +48,7 @@ https://booth.pm/ja/items/8019439
 | 名前 | 数 | 備考 |
 |:---|---:|:---|
 | XIAO nRF52840 Plus | 2個 | トラックボールをつけるためPlusを用意してください | 
-| [19 mmトラックボール](https://shop.beekeeb.com/products/19mm-trackball) | 2個 | |
+| [19 mmトラックボール](https://shop.beekeeb.com/products/19mm-trackball) | 1個 | |
 | ロープロファイルキースイッチ (Choc V2互換) | 48個 | | 
 | ロープロファイルキーキャップ | 48個 | すべて1u | 
 | 単四電池 | 2本 | アルカリ or 充電 | 
