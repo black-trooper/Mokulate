@@ -2,6 +2,9 @@
 title: 動作確認
 sidebar:
   order: 5
+next:
+  link: ../../keymap/
+  label: キーマップの編集
 ---
 
 ファームウェアを書き込んだあとは、電池を入れて無線での動作確認をします。
