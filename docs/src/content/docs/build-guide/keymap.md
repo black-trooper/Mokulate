@@ -30,6 +30,8 @@ DYA Studio はブラウザ上でキーマップやキーボードの設定を編
 
 ### 簡易手順
 
+0. キーボード側で studio_unlock キーを押します。標準キーマップで BLUETOOTH レイヤーにあります。  
+（右手側の一番右下のキーを押しながらL）
 1. [DYA Studio](https://studio.dya.cormoran.works/) を Chrome または Edge で開く
 2. Mokulate の右側を USB ケーブルで PC に接続する
 3. DYA Studio の接続画面で USB を選び、Mokulate に接続する
